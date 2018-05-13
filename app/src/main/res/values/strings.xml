@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CharadesScoreCounter</string>
+    <string name="team_a">Team A</string>
+    <string name="team_b">Team B</string>
+    <string name="score">Score</string>
+    <string name="less_than_1">Less than 1 minute</string>
+    <string name="more_than_1">More than 1 minute</string>
+    <string name="reset">reset Score</string>
+    <string name="score_number">0</string>
+</resources>

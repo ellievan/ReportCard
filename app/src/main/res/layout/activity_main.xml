@@ -1,0 +1,126 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/cutecups3"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/team_heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/team_a"
+                android:textColor="@color/colorTeamA" />
+
+            <TextView
+                style="@style/score_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/score"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/team_a_score"
+                style="@style/score_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/score_number"
+                android:textColor="@android:color/black" />
+
+            <Button
+                style="@style/button_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="addTwoForTeamA"
+                android:text="@string/less_than_1"
+                android:textColor="@color/colorTeamA" />
+
+            <Button
+                style="@style/button_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="addOneForTeamA"
+                android:text="@string/more_than_1"
+                android:textColor="@color/colorTeamA" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="400dp"
+                android:background="@android:color/darker_gray" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/team_heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_right_team_b"
+                android:text="@string/team_b"
+                android:textColor="@color/colorTeamB" />
+
+            <TextView
+                style="@style/score_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_right_team_b"
+                android:text="@string/score"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/team_b_score"
+                style="@style/score_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_right_team_b"
+                android:text="@string/score_number"
+                android:textColor="@android:color/black" />
+
+            <Button
+                style="@style/button_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="addTwoForTeamB"
+                android:text="@string/less_than_1"
+                android:textColor="@color/colorTeamB" />
+
+            <Button
+                style="@style/button_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="addOneForTeamB"
+                android:text="@string/more_than_1"
+                android:textColor="@color/colorTeamB" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/reset_score"
+        style="@style/reset_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="resetScore"
+        android:text="@string/reset"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

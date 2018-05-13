@@ -1,0 +1,41 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="button_style">
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:background">@android:color/black</item>
+    </style>
+    <style name="score_title">
+        <item name="android:layout_marginLeft">24dp</item>
+        <item name="android:layout_marginTop">109dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+    <style name="team_heading">
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">23sp</item>
+    </style>
+    <style name="score_number">
+        <item name="android:layout_marginLeft">24dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">50sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="reset_style">
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:background">@android:color/black</item>
+    </style>
+</resources>
